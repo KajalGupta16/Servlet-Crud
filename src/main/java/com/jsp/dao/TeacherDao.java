@@ -11,7 +11,7 @@ import javax.persistence.Query;
 import com.jsp.dto.Teacher;
 
 public class TeacherDao {
-	EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("vikas");
+	EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("kajal");
 	EntityManager entityManager = entityManagerFactory.createEntityManager();
 	EntityTransaction entityTransaction = entityManager.getTransaction();
 
